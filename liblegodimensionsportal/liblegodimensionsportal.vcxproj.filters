@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{bab3187c-b506-422b-a94d-f79fe77b9da6}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{6c5dbaf0-7532-4de3-b257-24a8bb10f3e9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{3a9d9228-52ce-48d0-b24b-b378a96096c6}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{ede8293a-3abe-4266-b458-d43cebf24e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{f33d44fb-824d-4da7-b17a-cc53891e0481}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="liblegodimensionsportal.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClInclude Include="liblegodimensionsportal.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="liblegodimensionsportal-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="liblegodimensionsportal-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="DimensionsCommand.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalThread.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandSwitchPad.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSwitchPads.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DimensionsCommand.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalThread.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringExtensions.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandFadePads.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandFlashPads.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
