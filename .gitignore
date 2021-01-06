@@ -2,3 +2,9 @@
 .vs
 liblegodimensionsportal/Debug
 testApp/Debug
+debug.mak.old
+liblegodimensionsportal/gcc_Debug.h
+liblegodimensionsportal/gcc_Release.h
+Makefile.old
+gcc_Debug.h
+gcc_Release.h
